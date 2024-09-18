@@ -1,12 +1,11 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./styles.css";
 
-import App from "./app.js";
+import TicTacToe from "./tictactoe.js";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
-    <App />
+    <TicTacToe />
   </StrictMode>
 );
